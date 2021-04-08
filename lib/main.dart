@@ -10,9 +10,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Chat UI',
+      title: 'mugchat',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.red,
+        accentColor: Color(0xFFFEF9EB),
       ),
       home: HomeScreen(),
     );
