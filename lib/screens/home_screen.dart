@@ -51,6 +51,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Column(
                 children: [
                   FavoriteContacts(),
+                  RecentChats(),
                 ],
               ),
             ),
